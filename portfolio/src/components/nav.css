@@ -1,0 +1,23 @@
+#navbar {
+  .navbar {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Display list items in a row */
+    justify-content: space-around; /* Optional: space items evenly */
+  }
+
+  .navbar li {
+    margin: 0 15px; /* Optional: space between items */
+  }
+
+  .navbar a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Text color */
+    font-weight: bold; /* Make text bold */
+  }
+
+  .navbar a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+}
